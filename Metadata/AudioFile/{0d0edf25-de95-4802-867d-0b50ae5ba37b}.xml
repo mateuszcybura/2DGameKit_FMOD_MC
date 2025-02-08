@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0d0edf25-de95-4802-867d-0b50ae5ba37b}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
+		<property name="assetPath">
+			<value>SFX/Player/Movement/Footsteps/Stone/Footsteps, Human, High Heels, Large, Rocks, Jog, Run, Close SND127019 5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.37141666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -5,7 +5,7 @@
 			<value>sfx_env_zone01_shipSteam</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54bd4515-96ce-40b1-a961-754c4a2ba27a}</destination>
@@ -57,7 +57,7 @@
 			<destination>{6f58b89f-cde3-4020-853e-f3285963bae6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{862e4879-f5b9-4a04-a541-6edfa431855e}</destination>
+			<destination>{d722221d-2b0d-443a-832d-bc3452035214}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6301b293-c4e5-45f2-aeff-040ee787bc90}" />
@@ -81,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{61116612-aae1-46e5-aee4-04145c9691ec}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{64095193-edcd-478e-bd75-6e1f1039926d}</destination>
 		</relationship>
@@ -171,7 +174,7 @@
 	<object class="MixerBusEffectChain" id="{64095193-edcd-478e-bd75-6e1f1039926d}">
 		<relationship name="effects">
 			<destination>{1b3ac846-9ead-4d9e-8237-cb5299d57941}</destination>
-			<destination>{235022bd-3d7a-4aab-9e0c-4936a840c766}</destination>
+			<destination>{881dcb07-dc6c-475f-a05a-c38a10fc0f93}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{752169ef-34a1-48a9-9674-902c0de11f93}" />
@@ -216,12 +219,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1b3ac846-9ead-4d9e-8237-cb5299d57941}" />
-	<object class="ProxyEffect" id="{235022bd-3d7a-4aab-9e0c-4936a840c766}">
+	<object class="ProxyEffect" id="{881dcb07-dc6c-475f-a05a-c38a10fc0f93}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{4dadff3a-c9e3-4399-b218-efc2867244bb}</destination>
+			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{0d7f2eac-12f4-4868-9592-2f4bf65ea5ef}">

@@ -5,7 +5,7 @@
 			<value>Yellow Light 1</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Player/Movement/Footsteps/Stone/Footsteps, Human, High Heels, Large, Rocks, Jog, Run, Close SND127019 7.wav</value>
+			<value>SFX/Player/Locomotion/Footsteps/Stone/Footsteps, Human, High Heels, Large, Rocks, Jog, Run, Close SND127019 7.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

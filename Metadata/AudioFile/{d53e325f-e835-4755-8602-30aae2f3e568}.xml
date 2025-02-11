@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d53e325f-e835-4755-8602-30aae2f3e568}">
 		<property name="assetPath">
-			<value>User Interface, Alert, Select, Soft Warm Tone, Delay 01 SND57552 1.wav</value>
+			<value>SFX/Environment/Interactables/InfoPost/User Interface, Alert, Select, Soft Warm Tone, Delay 01 SND57552 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

@@ -5,7 +5,7 @@
 			<value>Green Light 1</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Player/Movement/Footsteps/Grass/</value>
+			<value>SFX/Player/Locomotion/Footsteps/Grass/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6aa28bca-3c47-4a7e-9d38-0e8895485925}">
 		<property name="assetPath">
-			<value>Musical, Chime, Wind Chimes, Up, Down, Long 01 SND45599 1.wav</value>
+			<value>SFX/Environment/Interactables/InfoPost/Musical, Chime, Wind Chimes, Up, Down, Long 01 SND45599 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

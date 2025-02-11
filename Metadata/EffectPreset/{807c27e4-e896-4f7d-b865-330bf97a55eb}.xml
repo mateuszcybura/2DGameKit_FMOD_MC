@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{807c27e4-e896-4f7d-b865-330bf97a55eb}">
+		<property name="name">
+			<value>Effect Chain 2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{6a44e2d6-741b-4f96-bd26-fec698ed47b7}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{6a44e2d6-741b-4f96-bd26-fec698ed47b7}">
+		<relationship name="effects">
+			<destination>{4ac7003d-640a-4a30-9973-93a98ecd62b4}</destination>
+			<destination>{d4252abf-0057-4206-bd26-59ba7c5126de}</destination>
+		</relationship>
+	</object>
+	<object class="PannerEffect" id="{4ac7003d-640a-4a30-9973-93a98ecd62b4}" />
+	<object class="MultibandDynamicsEffect" id="{d4252abf-0057-4206-bd26-59ba7c5126de}" />
+</objects>

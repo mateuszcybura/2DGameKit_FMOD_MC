@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3b336fe7-603f-4005-a82a-16c3a47f8c88}">
 		<property name="assetPath">
-			<value>Ambience, Forest, Winter Forest, Birds Singing SND65639 1.wav</value>
+			<value>AMBIENCE/Zone01/Ambience, Forest, Winter Forest, Birds Singing SND65639 1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

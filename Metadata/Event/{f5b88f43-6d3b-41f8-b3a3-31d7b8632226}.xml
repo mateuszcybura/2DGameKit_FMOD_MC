@@ -2,13 +2,16 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f5b88f43-6d3b-41f8-b3a3-31d7b8632226}">
 		<property name="name">
-			<value>sfx_plr_jump</value>
+			<value>sfx_plr_</value>
+		</property>
+		<property name="isDefault">
+			<value>true</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7335f75e-407b-4570-bf54-fa2d15153ec0}</destination>
+			<destination>{6b1f8f87-e22e-40f4-beea-c8622c3083a8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{bb52faad-ad88-40df-9801-15d3d68dd2fc}</destination>
@@ -89,18 +92,18 @@
 	<object class="MixerBusEffectChain" id="{6eaf67ed-cecc-4a69-b8a6-c7b985fa3b85}">
 		<relationship name="effects">
 			<destination>{7444963e-9c65-4269-a9ce-b344a4626be8}</destination>
-			<destination>{0debf963-8b54-4d41-b1ef-1b0eb965c5a1}</destination>
+			<destination>{008d42c6-da39-4075-9a15-48f41143d0aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8a1b79a9-e421-4a61-9b06-feeecd7bf017}" />
 	<object class="MixerBusFader" id="{aceec5d7-e827-418a-901a-9bef80b31837}" />
 	<object class="MixerBusFader" id="{7444963e-9c65-4269-a9ce-b344a4626be8}" />
-	<object class="ProxyEffect" id="{0debf963-8b54-4d41-b1ef-1b0eb965c5a1}">
+	<object class="ProxyEffect" id="{008d42c6-da39-4075-9a15-48f41143d0aa}">
 		<property name="inputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="preset">
-			<destination>{4dadff3a-c9e3-4399-b218-efc2867244bb}</destination>
+			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
 		</relationship>
 	</object>
 </objects>

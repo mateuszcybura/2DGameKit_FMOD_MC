@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b3e6c79d-9640-4f24-928a-499dd5d02dbe}">
+		<property name="note" />
 		<property name="name">
 			<value>mus_zone01_riser_01</value>
 		</property>

@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{561abf28-caeb-46f5-ab63-de0cb4c86f8e}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{783d49ac-23d2-440d-883a-7aac53df9583}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{c7c1a907-5e5f-4d04-a4d1-99c8def43335}">
 		<relationship name="masterBus">
@@ -56,7 +59,14 @@
 			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{d3cb05ef-402a-450b-bad3-623e80b5a719}" />
+	<object class="EventAutomatableProperties" id="{d3cb05ef-402a-450b-bad3-623e80b5a719}">
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>500</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d2e5691b-f6b8-49fc-893a-e813250a312e}" />
 	<object class="Timeline" id="{95ffe323-98c0-4687-ac4e-2c027284e474}">
 		<property name="isProxyEnabled">
@@ -130,6 +140,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{9a48bfe5-6e59-4bbb-b9d8-e1a8b86669f7}" />
 	<object class="SingleSound" id="{96153c10-6bec-45a5-a276-91598386775e}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{7686f357-479a-4416-ac43-be1e0e3e7771}</destination>
 		</relationship>

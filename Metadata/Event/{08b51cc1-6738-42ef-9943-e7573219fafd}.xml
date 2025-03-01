@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{46325eb7-cbd3-4e16-9523-513493d20c24}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{e6267af8-5131-4ef0-b50c-82e6742db4d9}</destination>
+		</relationship>
 		<relationship name="defaultEvent">
 			<destination>{f5b88f43-6d3b-41f8-b3a3-31d7b8632226}</destination>
 		</relationship>

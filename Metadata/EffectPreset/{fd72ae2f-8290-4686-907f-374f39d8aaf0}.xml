@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{fd72ae2f-8290-4686-907f-374f39d8aaf0}">
+		<property name="name">
+			<value>PlayerSpatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{ba468b36-5aa4-47c8-b3ca-fd6dbc7e8277}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{ba468b36-5aa4-47c8-b3ca-fd6dbc7e8277}">
+		<relationship name="effects">
+			<destination>{a8e8fe97-76c5-408c-92a2-fedadd46f794}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{a8e8fe97-76c5-408c-92a2-fedadd46f794}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>3.20000005</value>
+		</property>
+		<property name="minimumExtent">
+			<value>182</value>
+		</property>
+	</object>
+</objects>

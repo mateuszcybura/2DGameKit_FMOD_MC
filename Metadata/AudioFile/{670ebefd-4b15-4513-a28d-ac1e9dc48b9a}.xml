@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{670ebefd-4b15-4513-a28d-ac1e9dc48b9a}">
+		<property name="assetPath">
+			<value>SFX/Environment/Zone01/Ship Steam/Boats, Steam, Steamship, Steam Release From Anchor Machine, Exterior, Close Up, MKH50, MS SND102251.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>21.074552083333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

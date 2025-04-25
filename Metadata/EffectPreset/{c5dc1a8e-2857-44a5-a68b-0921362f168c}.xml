@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{c5dc1a8e-2857-44a5-a68b-0921362f168c}">
+		<property name="name">
+			<value>MonsterSpatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{454e7f85-e5a2-4c14-b9fc-4a742c0395ab}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{d1354bf1-43aa-434a-9d2c-79ee433ed355}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{d1354bf1-43aa-434a-9d2c-79ee433ed355}">
+		<relationship name="effects">
+			<destination>{0e867090-f177-4310-a8fa-4522453edeb1}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{0e867090-f177-4310-a8fa-4522453edeb1}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

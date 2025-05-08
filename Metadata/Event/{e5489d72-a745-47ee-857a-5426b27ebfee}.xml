@@ -5,7 +5,7 @@
 			<value>test_1kHz_3D_action_generalSpat</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c7cb7979-b4b3-4f08-8919-16c52a68254a}</destination>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{81615d34-6e50-4984-b152-8ce2fb178a52}">
+		<property name="name">
+			<value>gunner eq</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{4d0a8e0b-2966-4482-baeb-1f6762db880a}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{4d0a8e0b-2966-4482-baeb-1f6762db880a}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>87.0767899</value>
+		</property>
+		<property name="qualityA">
+			<value>0.644206941</value>
+		</property>
+	</object>
+</objects>

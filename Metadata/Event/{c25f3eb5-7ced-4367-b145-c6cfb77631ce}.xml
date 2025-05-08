@@ -8,7 +8,7 @@
 			<value>true</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6b1f8f87-e22e-40f4-beea-c8622c3083a8}</destination>

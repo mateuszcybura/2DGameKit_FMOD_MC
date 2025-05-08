@@ -5,7 +5,7 @@
 			<value>sfx_portal_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{74779261-7411-4a94-8548-3460aa64c734}</destination>
@@ -53,7 +53,7 @@
 			<destination>{d98be3c0-80ea-4753-b739-ff8dfabfa160}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+			<destination>{862e4879-f5b9-4a04-a541-6edfa431855e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e46011e2-dfe5-4621-85cb-0561c3d493f0}" />
@@ -133,6 +133,7 @@
 	<object class="MixerBusEffectChain" id="{09ae755c-22ec-4cb6-80c2-8f4dbd172150}">
 		<relationship name="effects">
 			<destination>{8d77c118-d64a-4f8b-a069-e266b9082cb0}</destination>
+			<destination>{50f8980e-f6da-4b89-a76e-65d9ec0f9895}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{90fcd054-a1c8-48e6-b957-09d1b56d6021}" />
@@ -144,5 +145,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{acab2309-89df-42da-8a73-495180c3a5a9}" />
 	<object class="MixerBusFader" id="{8d77c118-d64a-4f8b-a069-e266b9082cb0}" />
+	<object class="SpatialiserEffect" id="{50f8980e-f6da-4b89-a76e-65d9ec0f9895}">
+		<property name="maximumDistance">
+			<value>9.19999981</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4.5999999</value>
+		</property>
+		<property name="minimumExtent">
+			<value>82</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9e9af8ac-b5b4-473e-a082-f0cfd318d7c1}" />
 </objects>

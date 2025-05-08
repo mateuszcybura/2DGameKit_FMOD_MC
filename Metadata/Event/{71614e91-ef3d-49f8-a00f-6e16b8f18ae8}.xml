@@ -5,7 +5,7 @@
 			<value>sfx_hpbox_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b364dfa0-18d8-4232-a0a3-0723f64387f2}</destination>
@@ -53,10 +53,20 @@
 			<destination>{2bf05cdb-3fc8-4d9f-b634-6de9f9ac01da}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+			<destination>{645af73d-520f-4453-ae08-42f48bc71ff9}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{ce0ceb57-f64d-44c2-83de-be00351c045c}" />
+	<object class="EventAutomatableProperties" id="{ce0ceb57-f64d-44c2-83de-be00351c045c}">
+		<property name="maxVoices">
+			<value>3</value>
+		</property>
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>76</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{682132a0-5b4a-4ca7-8559-41d3378de83a}" />
 	<object class="GroupTrack" id="{397a3289-4a74-4f9a-b7f4-438a5c37cf86}">
 		<relationship name="modules">
@@ -75,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0b7521db-87d7-4fa4-b97a-b73f955d852e}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{08de91bf-8c20-4b8f-9a82-efda35d4bf26}</destination>
 		</relationship>
@@ -129,7 +142,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{08de91bf-8c20-4b8f-9a82-efda35d4bf26}">
 		<relationship name="effects">
+			<destination>{c23045f2-35d2-460b-a5a5-58ae3186ca20}</destination>
 			<destination>{f3fcdd41-cb7c-4f50-92eb-bf5b95533f7f}</destination>
+			<destination>{9158570a-772a-4bd0-be9f-ded0bc18fe09}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2d5fa7e0-45a1-4d9a-9753-db80736bf288}" />
@@ -140,6 +155,28 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{25758a56-6950-4165-81c9-4ca8a27917dc}" />
+	<object class="MultibandEqEffect" id="{c23045f2-35d2-460b-a5a5-58ae3186ca20}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>1793.24646</value>
+		</property>
+		<property name="qualityA">
+			<value>1.28662062</value>
+		</property>
+		<property name="gainA">
+			<value>-8.79310417</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f3fcdd41-cb7c-4f50-92eb-bf5b95533f7f}" />
+	<object class="SpatialiserEffect" id="{9158570a-772a-4bd0-be9f-ded0bc18fe09}">
+		<property name="maximumDistance">
+			<value>9</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cb431f3a-c239-4536-aaa7-ec06aa638db9}" />
 </objects>

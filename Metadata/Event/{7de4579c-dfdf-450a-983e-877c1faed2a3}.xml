@@ -5,7 +5,7 @@
 			<value>sfx_plr_dmg_death</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4fe32659-d3fa-45b7-9ee4-0f0983fb487a}</destination>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2fc8561e-d845-48c3-a4ee-a145a4c573fc}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{116c216f-883c-4c58-a619-9abaa6eb7688}</destination>
 		</relationship>
@@ -99,6 +102,7 @@
 	<object class="MixerBusEffectChain" id="{116c216f-883c-4c58-a619-9abaa6eb7688}">
 		<relationship name="effects">
 			<destination>{24ed4161-a7fb-46b5-ab18-3719d634fa04}</destination>
+			<destination>{23ffd578-a53e-4044-b3c5-0b5e4013ada8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4ead0d29-9add-49d8-b8ab-a6729c3f7ec5}" />
@@ -111,6 +115,14 @@
 	</object>
 	<object class="MixerBusFader" id="{26bbd67e-0fe9-41b0-8fba-8255768deca1}" />
 	<object class="MixerBusFader" id="{24ed4161-a7fb-46b5-ab18-3719d634fa04}" />
+	<object class="ProxyEffect" id="{23ffd578-a53e-4044-b3c5-0b5e4013ada8}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{4f1fa822-a7b6-4e31-b164-8eeabb347c2d}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{f06dca0c-283f-4978-898d-fab1f00b278f}">
 		<relationship name="audioFile">
 			<destination>{bed87e68-174d-4282-b22d-8b3d1cde9d4c}</destination>

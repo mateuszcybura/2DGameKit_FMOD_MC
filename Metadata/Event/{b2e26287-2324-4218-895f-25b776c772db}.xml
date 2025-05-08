@@ -5,7 +5,7 @@
 			<value>sfx_env_wall_destroy</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{df4070c6-42ce-4db7-8013-3ecf87c0ca79}</destination>
@@ -62,7 +62,7 @@
 			<destination>{27369d60-658e-4214-8820-dc65cb3dd628}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+			<destination>{645af73d-520f-4453-ae08-42f48bc71ff9}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{09d2f5cd-6141-4502-b621-8ae1bf83f7d3}" />

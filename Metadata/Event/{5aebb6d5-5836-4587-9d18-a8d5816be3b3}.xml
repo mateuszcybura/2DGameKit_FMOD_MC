@@ -81,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8fc7d4bb-6b9f-41a0-b063-d05d44b314a3}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
 		</property>
@@ -171,6 +174,7 @@
 	<object class="MixerBusEffectChain" id="{051d4fbd-a799-43df-a7a3-e996ebd6fb10}">
 		<relationship name="effects">
 			<destination>{fbbc677f-ab2e-4024-8e05-7646bd4c05db}</destination>
+			<destination>{242398c8-2d63-4caf-aeaa-ad845e5d9bfd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b8ec7680-86a1-460d-808b-6d173a136496}">
@@ -219,6 +223,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{fbbc677f-ab2e-4024-8e05-7646bd4c05db}" />
+	<object class="SpatialiserEffect" id="{242398c8-2d63-4caf-aeaa-ad845e5d9bfd}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+		<property name="maximumDistance">
+			<value>7.4000001</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>1.80000007</value>
+		</property>
+		<property name="minimumExtent">
+			<value>82</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{64eab861-fe76-4728-b1f5-667d0fbd3a9f}">
 		<property name="position">
 			<value>0</value>

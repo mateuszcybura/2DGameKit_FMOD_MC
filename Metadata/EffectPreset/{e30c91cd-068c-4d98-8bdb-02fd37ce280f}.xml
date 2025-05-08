@@ -11,20 +11,5 @@
 			<destination>{b024366f-eb07-4d40-b7db-7e55e558b4fd}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}">
-		<relationship name="effects">
-			<destination>{d101b695-87c3-471e-a084-ddaa39725bcb}</destination>
-		</relationship>
-	</object>
-	<object class="SpatialiserEffect" id="{d101b695-87c3-471e-a084-ddaa39725bcb}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-	</object>
+	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}" />
 </objects>

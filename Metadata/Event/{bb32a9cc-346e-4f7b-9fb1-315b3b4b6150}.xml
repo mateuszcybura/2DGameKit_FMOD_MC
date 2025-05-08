@@ -5,7 +5,7 @@
 			<value>sfx_env_enm_spitter_splash</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b4a6b139-77b9-455d-a783-945fb35faed9}</destination>
@@ -59,7 +59,7 @@
 			<destination>{1aab8a46-3069-4753-9b54-bd883cee833d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+			<destination>{862e4879-f5b9-4a04-a541-6edfa431855e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f5e6591c-1f42-4b1b-8a03-780f166dc5e1}" />

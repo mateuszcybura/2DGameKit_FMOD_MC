@@ -5,7 +5,7 @@
 			<value>sfx_env_platform_moving_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ab64fd5-509b-41e1-9c6f-bf1669e554da}</destination>
@@ -56,10 +56,20 @@
 			<destination>{79e509dc-c352-4e92-9d1f-c0379da34bfb}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+			<destination>{645af73d-520f-4453-ae08-42f48bc71ff9}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{103388fb-2883-472b-a49f-44df2f651165}" />
+	<object class="EventAutomatableProperties" id="{103388fb-2883-472b-a49f-44df2f651165}">
+		<property name="maxVoices">
+			<value>7</value>
+		</property>
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>62</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e82925b7-4bac-41f4-8f4f-c767d238e15e}" />
 	<object class="GroupTrack" id="{df2dfff9-70a3-4f8e-802e-21f35b880ae0}">
 		<relationship name="modules">
@@ -79,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{8f987e78-5d72-40e9-ad72-b76f5d0bedf1}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2052e084-8d19-4e9f-8632-cb20e5d45f4e}</destination>
@@ -136,7 +146,7 @@
 	<object class="MixerBusEffectChain" id="{2052e084-8d19-4e9f-8632-cb20e5d45f4e}">
 		<relationship name="effects">
 			<destination>{1b110089-b02a-4b2e-9e11-cdded2c4410b}</destination>
-			<destination>{a950cb59-9ec2-4ba0-a52f-ea266dfad7f5}</destination>
+			<destination>{88634a7f-bc3c-4abc-b303-b2d451513bae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fdb228bf-a9c0-4e0e-97b4-c9b757814ca2}" />
@@ -148,9 +158,24 @@
 	</object>
 	<object class="MixerBusPanner" id="{f9cbe462-4d97-465d-b699-1f836444ae9e}" />
 	<object class="MixerBusFader" id="{1b110089-b02a-4b2e-9e11-cdded2c4410b}" />
-	<object class="PannerEffect" id="{a950cb59-9ec2-4ba0-a52f-ea266dfad7f5}">
-		<property name="overridingOutputFormat">
-			<value>0</value>
+	<object class="SpatialiserEffect" id="{88634a7f-bc3c-4abc-b303-b2d451513bae}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>2.79999995</value>
+		</property>
+		<property name="minimumExtent">
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{0a341126-0ed5-4e64-a896-e6353a8a9c2d}" />

@@ -167,7 +167,6 @@
 		<relationship name="modules">
 			<destination>{b6205603-ddc6-4d93-b65b-83f4f82f3d0f}</destination>
 			<destination>{eb412607-42f5-44ed-92a1-5f401f98ffa7}</destination>
-			<destination>{968e91e7-8e88-4a05-994b-697156b1d6f1}</destination>
 			<destination>{6f6d6a3a-ae5f-49e9-955d-7092e79f3414}</destination>
 			<destination>{9e612c15-cf75-42e7-a3ea-0112179e9fb2}</destination>
 		</relationship>
@@ -371,7 +370,6 @@
 			<destination>{ebb33f22-c47b-4329-a4a8-75f8116f8c23}</destination>
 			<destination>{b820b0c3-8375-4072-b112-5a17cf7a7ffc}</destination>
 			<destination>{9744a8d6-665f-4fa2-982f-d6f12e8decfa}</destination>
-			<destination>{968e91e7-8e88-4a05-994b-697156b1d6f1}</destination>
 			<destination>{f24c3e00-d21e-4bb8-9b61-6733e337a5bf}</destination>
 			<destination>{9b8daa5d-0a24-4807-8ae9-7f004b3f7027}</destination>
 			<destination>{46e0c956-6d23-4b83-92fe-af635bb6ed00}</destination>
@@ -578,7 +576,7 @@
 	</object>
 	<object class="SnapshotModule" id="{edd7bf71-d729-4d5b-87fd-2442634f88de}">
 		<property name="start">
-			<value>0.20000000000000001</value>
+			<value>0.15000000000000002</value>
 		</property>
 		<property name="length">
 			<value>0.80000000000000004</value>
@@ -913,23 +911,6 @@
 		<property name="length">
 			<value>0</value>
 		</property>
-	</object>
-	<object class="SingleSound" id="{968e91e7-8e88-4a05-994b-697156b1d6f1}">
-		<property name="color">
-			<value>Blue Light 1</value>
-		</property>
-		<property name="start">
-			<value>82.909083333333328</value>
-		</property>
-		<property name="length">
-			<value>1.0909166666666601</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>2.1818125000000066</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{158100c9-dc1f-41f5-b4b7-2b4c07682069}</destination>
-		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{6f6d6a3a-ae5f-49e9-955d-7092e79f3414}">
 		<property name="length">

@@ -5,7 +5,7 @@
 			<value>sfx_plr_loc_jump</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7335f75e-407b-4570-bf54-fa2d15153ec0}</destination>
@@ -115,6 +115,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{89889e6b-ae17-4e24-97a6-6c3d5e5b5be4}">
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -140,6 +143,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{55b90af1-5b98-49f4-ae6a-df486621b6f5}">
+		<property name="volume">
+			<value>-10.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -156,6 +162,7 @@
 	<object class="MixerBusEffectChain" id="{77592bba-803c-428f-bc2f-ecfae6f79587}">
 		<relationship name="effects">
 			<destination>{e81e2673-e975-4581-a5cd-e6e8ccb2438d}</destination>
+			<destination>{0bde5848-5cc6-40a8-83d4-94d262f4cb15}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a373d8b8-d27f-4bff-b9bb-399a36bdbc12}" />
@@ -208,6 +215,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{8d3245ae-66c9-40f8-b3dd-f357b467d617}" />
 	<object class="MixerBusFader" id="{e81e2673-e975-4581-a5cd-e6e8ccb2438d}" />
+	<object class="ProxyEffect" id="{0bde5848-5cc6-40a8-83d4-94d262f4cb15}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{4f1fa822-a7b6-4e31-b164-8eeabb347c2d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{72897435-78a9-4266-97ec-b72cf9f57f99}" />
 	<object class="MixerBusFader" id="{63654e27-a9bd-4033-b5dd-2a23ddad5eb8}" />
 </objects>

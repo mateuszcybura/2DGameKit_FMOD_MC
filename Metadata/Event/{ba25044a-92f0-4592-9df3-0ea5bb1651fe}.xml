@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_fs</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1865ced-11cd-4d50-bfde-69541d4dd1ba}</destination>
@@ -80,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e369c846-0af5-410f-bfd6-da2693ee2852}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{006eee79-9ccb-4e48-836a-bb0c354aa3ca}</destination>
 		</relationship>
@@ -120,6 +123,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{006eee79-9ccb-4e48-836a-bb0c354aa3ca}">
 		<relationship name="effects">
+			<destination>{bdf6f971-4c32-4446-8f08-ca1928c0f0d1}</destination>
 			<destination>{1d385dd3-1786-49b1-803e-8dbb75703959}</destination>
 			<destination>{a4097e3f-de91-4e06-8313-8ef4d8155a23}</destination>
 		</relationship>
@@ -138,6 +142,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dc1ca9f1-920d-4a01-a1b2-0e86862f2f57}" />
+	<object class="ProxyEffect" id="{bdf6f971-4c32-4446-8f08-ca1928c0f0d1}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{81615d34-6e50-4984-b152-8ce2fb178a52}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{1d385dd3-1786-49b1-803e-8dbb75703959}" />
 	<object class="ProxyEffect" id="{a4097e3f-de91-4e06-8313-8ef4d8155a23}">
 		<property name="inputFormat">

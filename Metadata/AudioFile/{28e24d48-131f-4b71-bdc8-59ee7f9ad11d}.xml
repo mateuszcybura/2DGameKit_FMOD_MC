@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{28e24d48-131f-4b71-bdc8-59ee7f9ad11d}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/Wall/Destroy/Destruction, Collapse, Blow Up Stoney Structure, Building Demolition, Huge, Explosion, Close 01 SND122534.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/Wall/Destroy/Destruction, Collapse, Blow Up Stoney Structure, Building Demolition, Huge, Explosion, Close 01 SND122534.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

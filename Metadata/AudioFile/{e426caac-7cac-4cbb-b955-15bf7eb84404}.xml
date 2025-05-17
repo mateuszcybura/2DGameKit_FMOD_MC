@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e426caac-7cac-4cbb-b955-15bf7eb84404}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/InfoPost/sfx_info_post_lp.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/InfoPost/sfx_info_post_lp.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d34cbd8d-42ab-4761-9a90-107d77cba0ef}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/HP Box/hp zbieranie 03.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/HP Box/hp zbieranie 03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{836c7583-aaab-4830-91d2-de71fe4edef7}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/InfoPost/sfx_info_post_popup.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/InfoPost/sfx_info_post_popup.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

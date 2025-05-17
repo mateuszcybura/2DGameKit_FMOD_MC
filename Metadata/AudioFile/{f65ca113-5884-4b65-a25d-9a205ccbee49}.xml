@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f65ca113-5884-4b65-a25d-9a205ccbee49}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/Wall/Destroy/Destruction, Collapse, Blow Up Stoney Structure, Building Demolition, Huge, Explosion, Close 01 SND122534 1.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/Wall/Destroy/Destruction, Collapse, Blow Up Stoney Structure, Building Demolition, Huge, Explosion, Close 01 SND122534 1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

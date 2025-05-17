@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{c54aa724-0649-4fba-80c7-753ac052f18f}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/InfoPost/</value>
+			<value>SFX/Environment/New Folder/Interactables/InfoPost/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>

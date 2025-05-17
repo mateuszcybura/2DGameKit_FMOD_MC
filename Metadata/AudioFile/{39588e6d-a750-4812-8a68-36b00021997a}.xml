@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{39588e6d-a750-4812-8a68-36b00021997a}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/Column/Destroy/Rocks, Crash &amp; Debris, Throw, Stoney Impact, Debris SND42682 1.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/Column/Destroy/Rocks, Crash &amp; Debris, Throw, Stoney Impact, Debris SND42682 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

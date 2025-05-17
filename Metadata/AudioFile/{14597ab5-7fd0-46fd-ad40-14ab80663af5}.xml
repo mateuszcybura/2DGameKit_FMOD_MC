@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{14597ab5-7fd0-46fd-ad40-14ab80663af5}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/Platform/Moving/Rocks, Movement, Slab Stone, Large, Drag On Stone 03 SND38118.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/Platform/Moving/Rocks, Movement, Slab Stone, Large, Drag On Stone 03 SND38118.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

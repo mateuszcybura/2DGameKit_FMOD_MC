@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{2e510da5-5737-47a8-aa11-cd37beb2a212}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/Wall/Destroy/</value>
+			<value>SFX/Environment/New Folder/Interactables/Wall/Destroy/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>

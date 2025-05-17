@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4bd343e6-cb86-419d-9115-df7be775e0c7}">
 		<property name="assetPath">
-			<value>SFX/Environment/Interactables/HP Box/hplp.wav</value>
+			<value>SFX/Environment/New Folder/Interactables/HP Box/hplp.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

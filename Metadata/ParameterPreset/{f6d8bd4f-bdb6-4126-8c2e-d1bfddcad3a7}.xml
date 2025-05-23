@@ -20,8 +20,8 @@
 		</property>
 		<property name="enumerationLabels">
 			<value>Menu</value>
-			<value>Zone_1</value>
-			<value>Zone_2_3</value>
+			<value>Zone_1_3</value>
+			<value>Zone_2</value>
 			<value>Zone_3_cave</value>
 		</property>
 		<property name="isGlobal">

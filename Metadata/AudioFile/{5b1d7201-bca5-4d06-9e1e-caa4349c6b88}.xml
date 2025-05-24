@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{ed12ba11-63ce-4e2b-b50f-6d9dbdcf0adf}">
+	<object class="AudioFile" id="{5b1d7201-bca5-4d06-9e1e-caa4349c6b88}">
 		<property name="assetPath">
-			<value>SFX/Enemies/Spitter/Attack/spitter attack 02.wav</value>
+			<value>SFX/Enemies/Gunner/gunnerlightning.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.41370833333333334</value>
+			<value>2.8841666666666668</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>

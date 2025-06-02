@@ -5,7 +5,7 @@
 			<value>test_1kHz_3D_action_generalSpat</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c7cb7979-b4b3-4f08-8919-16c52a68254a}</destination>
@@ -139,6 +139,7 @@
 		<relationship name="effects">
 			<destination>{68a728a1-531a-486f-a217-c64c9a095ac1}</destination>
 			<destination>{0df1578c-9971-428f-9bc9-b682a038981a}</destination>
+			<destination>{d649b764-8392-4cec-ab26-a6188b61b1fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9a48bfe5-6e59-4bbb-b9d8-e1a8b86669f7}" />
@@ -160,4 +161,5 @@
 			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
 		</relationship>
 	</object>
+	<object class="SpatialiserEffect" id="{d649b764-8392-4cec-ab26-a6188b61b1fe}" />
 </objects>

@@ -147,7 +147,7 @@
 			<value>3</value>
 		</property>
 		<property name="maximumDistance">
-			<value>9</value>
+			<value>3000</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

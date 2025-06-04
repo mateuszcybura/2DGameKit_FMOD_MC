@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_lightning</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1865ced-11cd-4d50-bfde-69541d4dd1ba}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cbc98254-e041-45dc-80e3-6d43cb1fa499}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{7292a144-6726-433e-961a-0237a52e2ca0}</destination>
 		</relationship>
@@ -97,6 +100,7 @@
 		<relationship name="effects">
 			<destination>{bf78819a-8d0a-4355-ac43-8ebc3cd278e2}</destination>
 			<destination>{e8918d2a-95a1-4bb1-88ab-bd0f233d251d}</destination>
+			<destination>{f01acb1e-8313-4b7f-8cb8-e0e682b57628}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3ddebc0f-c1b0-45b8-bb09-f2ae23b1597e}" />
@@ -115,4 +119,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e8918d2a-95a1-4bb1-88ab-bd0f233d251d}" />
+	<object class="ProxyEffect" id="{f01acb1e-8313-4b7f-8cb8-e0e682b57628}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6ccfd075-cada-4154-978b-cade11eba797}</destination>
+		</relationship>
+	</object>
 </objects>

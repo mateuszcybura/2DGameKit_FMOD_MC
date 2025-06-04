@@ -5,7 +5,7 @@
 			<value>sfx_env_elevator</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f98c53a0-8a22-41e0-9f07-9d1a62bde208}</destination>
@@ -131,6 +131,7 @@
 		<relationship name="effects">
 			<destination>{dafa74f0-c4ff-401d-885a-0bfed8d6c795}</destination>
 			<destination>{1f469f4c-43df-462f-bdbf-2a2c96a1fcf9}</destination>
+			<destination>{6b1771b2-41e4-4a14-9edd-a991e140c698}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0af97c28-631d-4e92-908a-493600f0be37}" />
@@ -159,5 +160,13 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1f469f4c-43df-462f-bdbf-2a2c96a1fcf9}" />
+	<object class="ProxyEffect" id="{6b1771b2-41e4-4a14-9edd-a991e140c698}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{a8eb9380-0ab8-4ce6-b7e6-a30c97ae228b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{75169ebc-a1ad-4ef9-9f4e-af3bd102d3bd}" />
 </objects>

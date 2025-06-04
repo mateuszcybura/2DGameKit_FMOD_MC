@@ -5,7 +5,7 @@
 			<value>sfx_env_lamp_activation</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5890a11-a1a2-43d9-b032-34f5a7e88d5f}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b7553d68-90ed-4ea9-8d82-149e7df9ee3f}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e6bd773a-1d89-4bea-8e1a-329eb36dee6d}</destination>
 		</relationship>
@@ -96,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{e6bd773a-1d89-4bea-8e1a-329eb36dee6d}">
 		<relationship name="effects">
 			<destination>{43b19625-b603-453b-ac13-be1e7ef3b7fa}</destination>
+			<destination>{095e55ad-efd7-4683-980e-1ee40b9953e3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c512f0d2-964a-4195-8db6-2237b0ecb379}" />
@@ -106,4 +110,15 @@
 	</object>
 	<object class="MixerBusFader" id="{f4facfd7-a575-490b-aa02-0140d47e5d1e}" />
 	<object class="MixerBusFader" id="{43b19625-b603-453b-ac13-be1e7ef3b7fa}" />
+	<object class="SpatialiserEffect" id="{095e55ad-efd7-4683-980e-1ee40b9953e3}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+		<property name="maximumDistance">
+			<value>7.4000001</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 </objects>

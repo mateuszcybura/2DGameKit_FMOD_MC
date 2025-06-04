@@ -1327,7 +1327,7 @@
 			<value>Blue Light 2</value>
 		</property>
 		<property name="volume">
-			<value>-11</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -1788,7 +1788,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="volume">
-			<value>-3</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Drums_02</value>
@@ -2492,6 +2492,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{92a9eb1d-033e-4e0b-8603-89ef4862a23a}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
 			<value>Audio 4</value>
 		</property>
@@ -2743,6 +2746,9 @@
 	<object class="EventMixerGroup" id="{cf7ccba8-7429-47f5-9ff9-e0c1842e3446}">
 		<property name="color">
 			<value>Purple Light 2</value>
+		</property>
+		<property name="volume">
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>szklanki interlude</value>
@@ -3526,7 +3532,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{008cdfc6-eb1d-4e41-b2e2-c2fa23ff4536}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>Audio 6</value>
@@ -4083,7 +4089,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f64ff51a-f1ed-4ec4-94e3-e225255a1e86}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -5018,7 +5024,6 @@
 	<object class="MixerBusEffectChain" id="{ca84330e-85a7-40d5-af2c-044caadd6160}">
 		<relationship name="effects">
 			<destination>{c1f6d7ed-c826-44a9-88a3-24f65c056e75}</destination>
-			<destination>{984125ab-d0d4-4bd9-ba7a-a80b0be68e81}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{18f24eb7-4042-4db0-a974-1939bd8ac635}" />
@@ -6239,7 +6244,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c1f6d7ed-c826-44a9-88a3-24f65c056e75}" />
-	<object class="LoudnessMeter" id="{984125ab-d0d4-4bd9-ba7a-a80b0be68e81}" />
 	<object class="AutomationPoint" id="{2803d4b2-1c72-4b7a-a284-7cf53356f8b0}">
 		<property name="position">
 			<value>0</value>

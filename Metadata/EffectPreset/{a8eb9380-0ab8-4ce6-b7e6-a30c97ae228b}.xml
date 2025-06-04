@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EffectPreset" id="{23a606fc-7964-4533-bf73-3d822ff20e3e}">
+	<object class="EffectPreset" id="{a8eb9380-0ab8-4ce6-b7e6-a30c97ae228b}">
 		<property name="name">
-			<value>Mobs spatializer</value>
+			<value>Attenuation_Environment</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
 		</relationship>
 		<relationship name="effect">
-			<destination>{91df80b5-6fe8-4c05-b3e6-917f39c69a0b}</destination>
+			<destination>{1a0adf70-1af7-4e67-b760-cccd59a38b3a}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{91df80b5-6fe8-4c05-b3e6-917f39c69a0b}">
+	<object class="EffectChain" id="{1a0adf70-1af7-4e67-b760-cccd59a38b3a}">
+		<relationship name="effects">
+			<destination>{0f8e9550-afea-466b-a473-6959eff0a0c0}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{0f8e9550-afea-466b-a473-6959eff0a0c0}">
 		<property name="maximumDistance">
-			<value>9.60000038</value>
+			<value>4.20000029</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
@@ -22,10 +27,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>2.20000005</value>
+			<value>0.600000024</value>
 		</property>
 		<property name="minimumExtent">
-			<value>50</value>
+			<value>46</value>
 		</property>
 	</object>
 </objects>

@@ -24,19 +24,11 @@
 	<object class="MixerBusEffectChain" id="{14a02b5a-5684-4440-ba4e-ce4809d3ec48}">
 		<relationship name="effects">
 			<destination>{4488ec30-37d6-4d8a-b098-a4cfdda28fd9}</destination>
-			<destination>{bf86535c-4443-4ad9-ab77-c707232073b8}</destination>
 			<destination>{97e79392-72d5-40c8-93ec-8d84b08ac6ce}</destination>
-			<destination>{d0e80b3f-fb6a-4e15-af08-b08aa43205c4}</destination>
-			<destination>{42e4a914-c6f5-40de-bab4-46916925f15e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c2004634-e134-41b3-8882-d0d03721985d}" />
 	<object class="MixerBusFader" id="{4488ec30-37d6-4d8a-b098-a4cfdda28fd9}" />
-	<object class="SFXReverbEffect" id="{bf86535c-4443-4ad9-ab77-c707232073b8}">
-		<property name="wetLevel">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="MixerSend" id="{97e79392-72d5-40c8-93ec-8d84b08ac6ce}">
 		<property name="inputFormat">
 			<value>2</value>
@@ -45,10 +37,4 @@
 			<destination>{84e7f57b-3ee9-4db5-829e-30bbd32f61a6}</destination>
 		</relationship>
 	</object>
-	<object class="SpectralSidechain" id="{d0e80b3f-fb6a-4e15-af08-b08aa43205c4}">
-		<property name="minimumFrequency">
-			<value>76</value>
-		</property>
-	</object>
-	<object class="Sidechain" id="{42e4a914-c6f5-40de-bab4-46916925f15e}" />
 </objects>

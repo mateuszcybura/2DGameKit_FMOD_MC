@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EffectPreset" id="{23a606fc-7964-4533-bf73-3d822ff20e3e}">
+	<object class="EffectPreset" id="{6ccfd075-cada-4154-978b-cade11eba797}">
 		<property name="name">
-			<value>Mobs spatializer</value>
+			<value>Boss spatialiezr</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
 		</relationship>
 		<relationship name="effect">
-			<destination>{91df80b5-6fe8-4c05-b3e6-917f39c69a0b}</destination>
+			<destination>{1bf9a248-acbb-4415-8c13-8392931ee129}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{91df80b5-6fe8-4c05-b3e6-917f39c69a0b}">
+	<object class="SpatialiserEffect" id="{1bf9a248-acbb-4415-8c13-8392931ee129}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
 		<property name="maximumDistance">
-			<value>9.60000038</value>
+			<value>25</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
@@ -22,10 +25,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>2.20000005</value>
+			<value>17.5</value>
 		</property>
 		<property name="minimumExtent">
-			<value>50</value>
+			<value>180</value>
 		</property>
 	</object>
 </objects>

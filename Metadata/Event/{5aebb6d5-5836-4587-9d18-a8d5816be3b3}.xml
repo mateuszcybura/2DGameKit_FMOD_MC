@@ -82,11 +82,14 @@
 	</object>
 	<object class="EventMixerMaster" id="{8fc7d4bb-6b9f-41a0-b063-d05d44b314a3}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>-1</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{25976e4d-d3a0-43a7-a3e8-f12d758957fb}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{051d4fbd-a799-43df-a7a3-e996ebd6fb10}</destination>
 		</relationship>
@@ -171,8 +174,26 @@
 			<destination>{bbfdbbf2-5a84-4ac1-8719-21b1dd5a0790}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{25976e4d-d3a0-43a7-a3e8-f12d758957fb}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.587577224</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.485502213</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{051d4fbd-a799-43df-a7a3-e996ebd6fb10}">
 		<relationship name="effects">
+			<destination>{dfb5e42e-7a3a-4fde-88ba-de4e5ada56a9}</destination>
 			<destination>{fbbc677f-ab2e-4024-8e05-7646bd4c05db}</destination>
 			<destination>{242398c8-2d63-4caf-aeaa-ad845e5d9bfd}</destination>
 		</relationship>
@@ -221,6 +242,17 @@
 			<destination>{c61b7020-9138-454d-96da-ac2e5e0a6aa4}</destination>
 			<destination>{1a297de6-815d-46b5-9eea-d225539151a1}</destination>
 		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{dfb5e42e-7a3a-4fde-88ba-de4e5ada56a9}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>12316.0889</value>
+		</property>
+		<property name="gainA">
+			<value>-9.3103447</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{fbbc677f-ab2e-4024-8e05-7646bd4c05db}" />
 	<object class="SpatialiserEffect" id="{242398c8-2d63-4caf-aeaa-ad845e5d9bfd}">

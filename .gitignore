@@ -1,5 +1,6 @@
-.cache
+﻿.cache
 .unsaved
 .user
 /.vs
 *.bank
+Metadata/ProfilerSession

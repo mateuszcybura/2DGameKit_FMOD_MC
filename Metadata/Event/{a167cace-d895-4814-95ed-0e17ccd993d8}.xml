@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2802c625-b96d-42c4-ae2b-07c7499a02ee}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{07d52c49-9c94-4269-a217-c1c4cc1e4d31}</destination>
@@ -86,8 +86,12 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{c31a6ac0-88ac-4522-b63d-10b239936512}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{0ca8fb0e-3e3d-41b6-ad70-80979311bb20}</destination>
+			<destination>{e45bb2bb-1fd0-4388-b653-337f571cec65}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8c0f7d37-59ef-4ea4-bfb5-7a4d1d96144b}">
@@ -99,14 +103,51 @@
 	<object class="MixerBusEffectChain" id="{07d52c49-9c94-4269-a217-c1c4cc1e4d31}">
 		<relationship name="effects">
 			<destination>{d0ff8da8-81be-4dbc-ae2f-c0ec67577a35}</destination>
+			<destination>{d7450014-9d02-4a22-b6a9-44795d637267}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8728bbaf-f8df-47f1-9588-6192de7aac2b}" />
 	<object class="SingleSound" id="{0ca8fb0e-3e3d-41b6-ad70-80979311bb20}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{836c7583-aaab-4830-91d2-de71fe4edef7}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{e45bb2bb-1fd0-4388-b653-337f571cec65}">
+		<relationship name="sounds">
+			<destination>{4d7bf8f5-cd2a-49b8-89cc-58ea632a8c5d}</destination>
+			<destination>{25a9b05b-cc83-4604-94eb-a79cd76f3761}</destination>
+			<destination>{9b2adb0b-0578-4410-bbd2-7cba6f4d30cf}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{b3851d8b-7f94-4abf-97ae-53b9419dbb12}" />
 	<object class="MixerBusFader" id="{d0ff8da8-81be-4dbc-ae2f-c0ec67577a35}" />
+	<object class="DelayEffect" id="{d7450014-9d02-4a22-b6a9-44795d637267}">
+		<property name="delay">
+			<value>160</value>
+		</property>
+		<property name="feedback">
+			<value>35.5</value>
+		</property>
+		<property name="level">
+			<value>-9</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{4d7bf8f5-cd2a-49b8-89cc-58ea632a8c5d}">
+		<relationship name="audioFile">
+			<destination>{2c209cad-cc83-445c-b456-b4601c6fdc7b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{25a9b05b-cc83-4604-94eb-a79cd76f3761}">
+		<relationship name="audioFile">
+			<destination>{4ba4d4ff-7778-449a-8398-4070514f838f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{9b2adb0b-0578-4410-bbd2-7cba6f4d30cf}">
+		<relationship name="audioFile">
+			<destination>{342f9d30-7942-4965-b0ce-5a73a1661a2e}</destination>
+		</relationship>
+	</object>
 </objects>

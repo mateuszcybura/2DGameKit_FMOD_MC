@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_beam</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1865ced-11cd-4d50-bfde-69541d4dd1ba}</destination>
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ffddc2e2-9476-4fe7-9175-6b3557c96476}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5d365bbb-8033-4127-aafe-2e34db2988d8}</destination>
@@ -100,6 +100,7 @@
 		<relationship name="effects">
 			<destination>{9f3203f6-01ce-400a-8c07-8e1f10fa36a6}</destination>
 			<destination>{6f023b2d-bb7a-46f8-a659-0e4ce2f94ddf}</destination>
+			<destination>{941dc179-bc65-475e-87a2-a5cc5d5ae688}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f0aa4687-ca0c-43ca-a3fc-cf1a108f6883}" />
@@ -121,6 +122,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6f023b2d-bb7a-46f8-a659-0e4ce2f94ddf}" />
+	<object class="ProxyEffect" id="{941dc179-bc65-475e-87a2-a5cc5d5ae688}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6ccfd075-cada-4154-978b-cade11eba797}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{51cc530b-1fdf-421a-ba43-9c3b37a8b963}">
 		<relationship name="audioFile">
 			<destination>{fed1e7aa-bf30-41f9-99ce-752219fe596d}</destination>

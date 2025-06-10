@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a2909c8d-fd6f-4096-9d62-9e58de5c548b}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>sfx_enm_gunner_death</value>
 		</property>

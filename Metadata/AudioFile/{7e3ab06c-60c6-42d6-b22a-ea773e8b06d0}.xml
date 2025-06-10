@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7e3ab06c-60c6-42d6-b22a-ea773e8b06d0}">
+		<property name="assetPath">
+			<value>SFX/Environment/New Folder/Interactables/Box/env_box_buoyant 22-11L-big_box_falling_into-1749454838237 (Freeze) [2025-06-09 103532].wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5874791666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

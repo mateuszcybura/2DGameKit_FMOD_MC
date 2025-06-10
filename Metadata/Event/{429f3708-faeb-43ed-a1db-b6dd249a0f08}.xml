@@ -5,7 +5,7 @@
 			<value>sfx_env_dropox_cutscene_02</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f24aa2d7-bd3e-4d87-88ad-0203c5322a7a}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{f71fda07-8abd-46f7-8dea-dabb4783989a}">
 		<relationship name="effects">
 			<destination>{954a6aa5-e622-4a9d-824d-1645037f936e}</destination>
+			<destination>{18da70f6-ea7f-4ad5-acdb-34a575a21da8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2ff18750-2b35-4343-8c11-15c204defd20}" />
@@ -109,4 +110,5 @@
 	</object>
 	<object class="MixerBusFader" id="{340e3b9e-80a5-4099-84e4-dc106f73205f}" />
 	<object class="MixerBusFader" id="{954a6aa5-e622-4a9d-824d-1645037f936e}" />
+	<object class="SpatialiserEffect" id="{18da70f6-ea7f-4ad5-acdb-34a575a21da8}" />
 </objects>

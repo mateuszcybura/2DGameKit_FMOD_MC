@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{6d77663e-3e92-4657-9c1c-16c910430ee9}" />
 	<object class="GroupTrack" id="{65a90731-5e76-432d-b076-bdc7d632cfd0}">
 		<relationship name="modules">
-			<destination>{1bbb62d7-b348-4ba5-abc2-30abe8323e8c}</destination>
+			<destination>{438a62af-7859-4e18-8557-53687f9c85f5}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{be84ab6c-0636-4ca0-aeb5-be68a5be51d9}</destination>
@@ -75,7 +75,7 @@
 	</object>
 	<object class="Timeline" id="{acf899a7-20e4-49de-a481-d6b44933cd3b}">
 		<relationship name="modules">
-			<destination>{1bbb62d7-b348-4ba5-abc2-30abe8323e8c}</destination>
+			<destination>{438a62af-7859-4e18-8557-53687f9c85f5}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{ad9d665e-656c-4bd5-90ab-9449dbd13834}</destination>
@@ -83,7 +83,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{b5a462a6-682c-49cc-9c05-3b40adabbcae}">
 		<property name="volume">
-			<value>10</value>
+			<value>2.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{28e51bdd-3a1e-4cef-b7bb-c7e1b573e7c9}</destination>
@@ -101,15 +101,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c10511a8-07e8-4f5e-850d-eb3491d53d40}" />
-	<object class="SingleSound" id="{1bbb62d7-b348-4ba5-abc2-30abe8323e8c}">
+	<object class="SingleSound" id="{438a62af-7859-4e18-8557-53687f9c85f5}">
 		<property name="length">
-			<value>36.659270833333331</value>
+			<value>29.951208333333334</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{05ef937d-2d70-4204-8b3c-ea8a2b41a123}</destination>
+			<destination>{5307fa01-7703-4b73-83af-70c2643d1e3e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{be84ab6c-0636-4ca0-aeb5-be68a5be51d9}">
+		<property name="volume">
+			<value>7.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -125,10 +128,10 @@
 	</object>
 	<object class="LoopRegion" id="{ad9d665e-656c-4bd5-90ab-9449dbd13834}">
 		<property name="position">
-			<value>0</value>
+			<value>4</value>
 		</property>
 		<property name="length">
-			<value>36.659270833333331</value>
+			<value>25.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{acf899a7-20e4-49de-a481-d6b44933cd3b}</destination>

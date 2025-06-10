@@ -88,9 +88,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8f987e78-5d72-40e9-ad72-b76f5d0bedf1}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{2052e084-8d19-4e9f-8632-cb20e5d45f4e}</destination>
 		</relationship>
@@ -161,9 +158,6 @@
 	<object class="SpatialiserEffect" id="{88634a7f-bc3c-4abc-b303-b2d451513bae}">
 		<property name="distanceRolloffType">
 			<value>3</value>
-		</property>
-		<property name="maximumDistance">
-			<value>15</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

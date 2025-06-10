@@ -57,7 +57,7 @@
 			<value>decayTime</value>
 		</property>
 		<property name="value">
-			<value>2400</value>
+			<value>2100</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{63c971fa-dd5c-4ec5-869f-0b54b3276eae}</destination>
@@ -68,7 +68,7 @@
 			<value>earlyDelay</value>
 		</property>
 		<property name="value">
-			<value>46</value>
+			<value>15.5</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{63c971fa-dd5c-4ec5-869f-0b54b3276eae}</destination>
@@ -112,7 +112,7 @@
 			<value>diffusion</value>
 		</property>
 		<property name="value">
-			<value>88.5</value>
+			<value>53.5</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{63c971fa-dd5c-4ec5-869f-0b54b3276eae}</destination>
@@ -156,7 +156,7 @@
 			<value>highCut</value>
 		</property>
 		<property name="value">
-			<value>2200</value>
+			<value>6500</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{63c971fa-dd5c-4ec5-869f-0b54b3276eae}</destination>

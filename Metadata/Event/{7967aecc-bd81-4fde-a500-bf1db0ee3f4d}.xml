@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7967aecc-bd81-4fde-a500-bf1db0ee3f4d}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>sfx_enm_gunner_cutscene</value>
 		</property>
@@ -72,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{294efc49-eea4-48e3-bc73-40c30ac5b8d3}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1fdab1c1-786e-453d-872d-50d0db2e7598}</destination>
 		</relationship>

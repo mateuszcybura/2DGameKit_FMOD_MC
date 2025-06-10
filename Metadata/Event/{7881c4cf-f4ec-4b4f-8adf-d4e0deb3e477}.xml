@@ -5,7 +5,7 @@
 			<value>sfx_env_sliding_doors</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e1b0f30-da7c-4403-8f98-9ddb73aff8e4}</destination>
@@ -100,6 +100,7 @@
 		<relationship name="effects">
 			<destination>{cb6ff6c7-35f8-4981-8965-a8500a3ee98c}</destination>
 			<destination>{128304d4-6a2c-4c17-9e26-1aeb18bc9709}</destination>
+			<destination>{c151a787-7e99-41d6-b85b-7236d5636e08}</destination>
 			<destination>{94a5defd-a5df-4665-85a9-30127409ee55}</destination>
 		</relationship>
 	</object>
@@ -122,5 +123,10 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{128304d4-6a2c-4c17-9e26-1aeb18bc9709}" />
+	<object class="SpatialiserEffect" id="{c151a787-7e99-41d6-b85b-7236d5636e08}">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="LoudnessMeter" id="{94a5defd-a5df-4665-85a9-30127409ee55}" />
 </objects>

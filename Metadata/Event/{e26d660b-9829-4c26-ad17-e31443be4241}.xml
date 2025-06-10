@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e26d660b-9829-4c26-ad17-e31443be4241}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>sfx_env_enm_gunner_grenade_upBeam</value>
 		</property>
@@ -72,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{44ab3ab0-1c10-41b9-ab54-8b4ea563fc3a}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4e2b381a-9a65-4add-b873-4e9db3866a1b}</destination>
 		</relationship>
@@ -84,7 +90,7 @@
 	</object>
 	<object class="MultiSound" id="{2ae165f6-da13-432b-acef-b7dd6b510a12}">
 		<relationship name="sounds">
-			<destination>{4c2f75ca-62a1-4d97-ad18-c6c2aa506f9a}</destination>
+			<destination>{da4dcc2d-cf39-4940-8f0b-1efe1b532d5e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cb0bc3fa-6987-48ca-ae68-d9083448222e}">
@@ -95,17 +101,29 @@
 	<object class="MixerBusPanner" id="{ee296c0c-f66c-4410-8694-85ec4642c5c3}" />
 	<object class="MixerBusEffectChain" id="{4e2b381a-9a65-4add-b873-4e9db3866a1b}">
 		<relationship name="effects">
+			<destination>{aca438cc-489d-4e59-89f4-b40ac3f30a00}</destination>
 			<destination>{9053ab7b-a528-4074-9633-31d57595e03c}</destination>
 			<destination>{d6a0fc30-1a84-4571-9452-756d5f330f1a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a24a5365-692d-4bc0-b3a5-838453eaccbe}" />
-	<object class="SingleSound" id="{4c2f75ca-62a1-4d97-ad18-c6c2aa506f9a}">
+	<object class="SingleSound" id="{da4dcc2d-cf39-4940-8f0b-1efe1b532d5e}">
 		<relationship name="audioFile">
-			<destination>{7cab7067-efe5-4368-95c3-f126abf6935a}</destination>
+			<destination>{f101d5f4-a9f0-419e-9b05-f86c4a529758}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3b8d1935-20e2-44a2-b733-613a5a6e882c}" />
+	<object class="MultibandEqEffect" id="{aca438cc-489d-4e59-89f4-b40ac3f30a00}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>58.7403564</value>
+		</property>
+		<property name="gainA">
+			<value>2.06896663</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9053ab7b-a528-4074-9633-31d57595e03c}" />
 	<object class="ProxyEffect" id="{d6a0fc30-1a84-4571-9452-756d5f330f1a}">
 		<property name="inputFormat">

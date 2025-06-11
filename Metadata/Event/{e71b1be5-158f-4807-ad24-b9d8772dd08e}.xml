@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e71b1be5-158f-4807-ad24-b9d8772dd08e}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>sfx_enm_gunner_gettingUp</value>
 		</property>
@@ -72,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cb396f21-91d4-47e7-b04e-e401ede2f749}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{73663340-8845-43ca-85e5-eb9ec8ae2fca}</destination>
 		</relationship>
@@ -82,7 +88,11 @@
 			<destination>{411c52b4-7c56-4950-9c68-186aea0dd567}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{2b9c18d1-feb5-42d4-b265-b916b2045cf4}" />
+	<object class="MultiSound" id="{2b9c18d1-feb5-42d4-b265-b916b2045cf4}">
+		<relationship name="sounds">
+			<destination>{c5a039f8-921d-4ee3-a35f-e91948940d55}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{df40303b-dbbd-4dc1-94c3-14a99327804c}">
 		<relationship name="effects">
 			<destination>{5a58689b-b33f-4e65-9fbb-5356866420da}</destination>
@@ -96,11 +106,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{32e4f39a-0baa-46ec-90b9-39cbebd0652f}" />
+	<object class="SingleSound" id="{c5a039f8-921d-4ee3-a35f-e91948940d55}">
+		<relationship name="audioFile">
+			<destination>{974dce52-60aa-4706-a2ca-e156396001c7}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{5a58689b-b33f-4e65-9fbb-5356866420da}" />
 	<object class="MixerBusFader" id="{948dd907-db09-4b04-bfb4-03dbf579ba97}" />
 	<object class="ProxyEffect" id="{33283c22-396d-44cc-ad03-4c445d05bae3}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{6ccfd075-cada-4154-978b-cade11eba797}</destination>

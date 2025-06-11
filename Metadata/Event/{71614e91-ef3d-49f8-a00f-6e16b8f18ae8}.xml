@@ -60,6 +60,9 @@
 		<property name="maxVoices">
 			<value>3</value>
 		</property>
+		<property name="voiceStealing">
+			<value>2</value>
+		</property>
 		<property name="dopplerEnabled">
 			<value>true</value>
 		</property>
@@ -86,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{0b7521db-87d7-4fa4-b97a-b73f955d852e}">
 		<property name="volume">
-			<value>3</value>
+			<value>-0.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{08de91bf-8c20-4b8f-9a82-efda35d4bf26}</destination>

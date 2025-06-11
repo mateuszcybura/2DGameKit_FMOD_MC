@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7e76f7b0-cd1e-4787-9226-354476cd51c6}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ee8841ba-5f19-45ef-bd09-51568038421c}</destination>
 		</relationship>
@@ -99,6 +102,7 @@
 	<object class="MixerBusEffectChain" id="{ee8841ba-5f19-45ef-bd09-51568038421c}">
 		<relationship name="effects">
 			<destination>{678b7617-decd-4003-a7a6-a409288c4aff}</destination>
+			<destination>{2a425cfc-e9e1-4e15-a05d-ac46a7afe65f}</destination>
 			<destination>{874be89a-cbca-4529-aaa2-fe2ba093d0be}</destination>
 			<destination>{4d04b079-e550-4081-8bfb-c8fe47f5571e}</destination>
 		</relationship>
@@ -120,6 +124,11 @@
 		<relationship name="preset">
 			<destination>{81615d34-6e50-4984-b152-8ce2fb178a52}</destination>
 		</relationship>
+	</object>
+	<object class="LimiterEffect" id="{2a425cfc-e9e1-4e15-a05d-ac46a7afe65f}">
+		<property name="ceiling">
+			<value>-10.1999998</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{874be89a-cbca-4529-aaa2-fe2ba093d0be}" />
 	<object class="ProxyEffect" id="{4d04b079-e550-4081-8bfb-c8fe47f5571e}">

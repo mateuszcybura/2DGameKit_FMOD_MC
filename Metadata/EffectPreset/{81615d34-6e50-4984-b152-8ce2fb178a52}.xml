@@ -12,11 +12,17 @@
 		</relationship>
 	</object>
 	<object class="MultibandEqEffect" id="{4d0a8e0b-2966-4482-baeb-1f6762db880a}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="filterTypeA">
-			<value>4</value>
+			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>48.7475433</value>
+			<value>67.9084778</value>
+		</property>
+		<property name="qualityA">
+			<value>1.3757931</value>
 		</property>
 	</object>
 </objects>

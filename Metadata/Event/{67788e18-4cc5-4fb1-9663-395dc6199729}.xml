@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{67788e18-4cc5-4fb1-9663-395dc6199729}">
 		<property name="color">
-			<value>Purple</value>
+			<value>Magenta</value>
 		</property>
 		<property name="name">
 			<value>sfx_enm_gunner_sparks</value>
@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{b2ceb770-0c19-4c80-87f8-9f629ccc3a9e}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-80</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{202950ff-ccc1-4e61-83c3-b293b4eaa8df}</destination>
@@ -112,7 +112,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f2649cd3-b0f5-4bc2-97cc-6f3a9c16f6f4}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

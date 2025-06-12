@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{294efc49-eea4-48e3-bc73-40c30ac5b8d3}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-7</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1fdab1c1-786e-453d-872d-50d0db2e7598}</destination>
@@ -117,7 +117,7 @@
 			<value>0.800000012</value>
 		</property>
 		<property name="ceiling">
-			<value>-4.0999999</value>
+			<value>-4.4000001</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2dbc41d3-7e66-43e5-aeaa-4d3de8a1d345}" />

@@ -5,7 +5,7 @@
 			<value>sfx_hpbox</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b364dfa0-18d8-4232-a0a3-0723f64387f2}</destination>
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{86e9631a-92f2-421d-9b11-2d333232c0cf}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>-7.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{31c6ac35-4240-4142-b702-8f501c0be431}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{31c6ac35-4240-4142-b702-8f501c0be431}">
 		<relationship name="effects">
 			<destination>{4f6d9582-265e-445d-99e1-8de6264f74d1}</destination>
+			<destination>{3aa68737-c00a-494a-889b-fc2afbdf5b90}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1750c459-db51-4e64-bdd7-4b25610117e9}" />
@@ -111,6 +112,14 @@
 	</object>
 	<object class="MixerBusFader" id="{cf99e6d3-af22-41ac-bc24-93aa3fe64831}" />
 	<object class="MixerBusFader" id="{4f6d9582-265e-445d-99e1-8de6264f74d1}" />
+	<object class="SpatialiserEffect" id="{3aa68737-c00a-494a-889b-fc2afbdf5b90}">
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{b0b24f2e-9051-4df5-9aa5-76a8d31cbcf4}">
 		<relationship name="audioFile">
 			<destination>{cd0e064b-360b-4da8-9721-df91f69678ae}</destination>

@@ -86,6 +86,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3c2065f0-4a78-4cf4-a540-13eb0cb53b7b}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{62f1b671-3ae1-4f54-b5fa-17741af84f34}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{468054c2-2de2-4473-8f75-e81ccacce416}</destination>
 		</relationship>
@@ -175,8 +181,26 @@
 			<destination>{73392fc7-e52f-4416-91f8-4fafa9258508}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{62f1b671-3ae1-4f54-b5fa-17741af84f34}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>440</value>
+		</property>
+		<property name="releaseTime">
+			<value>980</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{468054c2-2de2-4473-8f75-e81ccacce416}">
 		<relationship name="effects">
+			<destination>{b3d70182-368f-4b2f-93be-ff112de5419f}</destination>
 			<destination>{73b1d2c6-1d1c-4bcc-8ed7-c82272165bfa}</destination>
 			<destination>{f8ef803a-101c-4d7a-8fd4-120b8052d478}</destination>
 		</relationship>
@@ -241,6 +265,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3cf63b8a-f842-4e3a-a233-72f4671521eb}" />
+	<object class="ThreeEQEffect" id="{b3d70182-368f-4b2f-93be-ff112de5419f}">
+		<property name="highGain">
+			<value>-4</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{73b1d2c6-1d1c-4bcc-8ed7-c82272165bfa}" />
 	<object class="ProxyEffect" id="{f8ef803a-101c-4d7a-8fd4-120b8052d478}">
 		<property name="inputFormat">

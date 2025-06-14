@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Blue</value>
 		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="name">
 			<value>MUSIC</value>
 		</property>
@@ -29,6 +32,9 @@
 	<object class="MixerBusPanner" id="{4100c869-5c0d-423e-95a5-c5518abf68bc}" />
 	<object class="MixerBusFader" id="{fbd50899-79c0-4b6b-b2d8-f0d141648670}" />
 	<object class="CompressorEffect" id="{906f03ff-a7ff-490f-9983-5bf422606a09}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="threshold">
 			<value>-9.5</value>
 		</property>

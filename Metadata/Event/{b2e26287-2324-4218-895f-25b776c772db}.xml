@@ -5,7 +5,7 @@
 			<value>sfx_env_wall_destroy</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{df4070c6-42ce-4db7-8013-3ecf87c0ca79}</destination>
@@ -83,6 +83,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f17de467-9374-4784-9099-77f4d3945bfa}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{db3971f6-9da2-41b7-87ea-dc3e8ae40059}</destination>
 		</relationship>
@@ -121,6 +124,7 @@
 	<object class="MixerBusEffectChain" id="{db3971f6-9da2-41b7-87ea-dc3e8ae40059}">
 		<relationship name="effects">
 			<destination>{586d75c5-3eb7-4259-81d7-da98ea2fad62}</destination>
+			<destination>{08077fd6-f442-42f3-9f32-76e8765a4b70}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4ce6baf0-e863-4419-b070-d72d702634d0}" />
@@ -137,5 +141,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{267fda37-4b02-49ed-8d4d-23073d682602}" />
 	<object class="MixerBusFader" id="{586d75c5-3eb7-4259-81d7-da98ea2fad62}" />
+	<object class="SpatialiserEffect" id="{08077fd6-f442-42f3-9f32-76e8765a4b70}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0ef61cea-0424-472b-ab52-d0c55b8b4a4e}" />
 </objects>

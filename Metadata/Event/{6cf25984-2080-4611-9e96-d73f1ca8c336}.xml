@@ -227,7 +227,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{609a26b9-855c-4d31-86d1-7a6b8e2789b6}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-12.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{845fa115-d638-4694-9b4a-60fc64b056ae}</destination>
@@ -423,7 +423,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2818ff73-6af2-4414-982d-631dd0b5421b}">
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-1</value>
 		</property>
 		<property name="name">
 			<value>cello</value>
@@ -506,6 +506,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{be5dd7de-44af-4a44-abb1-2f862ddef94d}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>strlow_idk</value>
 		</property>
@@ -614,7 +617,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c1f9c0b6-78bf-4871-820d-b80ba8e50c1b}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -696,6 +699,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{e9489f37-4615-4b33-ba7a-968cf7f9427d}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -779,7 +785,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{29fba493-3ef5-429d-b1be-a9c96d190f54}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 8</value>
@@ -856,7 +862,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{29fc12e8-ca01-45f7-b992-ee4e1a93b94b}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>stingers beggining</value>
@@ -912,7 +918,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b491627-951d-42e9-aabb-b8005d9819f6}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-9.5</value>
 		</property>
 		<property name="name">
 			<value>stingers ending</value>

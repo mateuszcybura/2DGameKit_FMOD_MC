@@ -89,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{8fc7d4bb-6b9f-41a0-b063-d05d44b314a3}">
 		<property name="volume">
-			<value>-1</value>
+			<value>-4.5</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
@@ -255,10 +255,10 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>12316.0889</value>
+			<value>8841.00391</value>
 		</property>
 		<property name="gainA">
-			<value>-9.3103447</value>
+			<value>-10.5688744</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fbbc677f-ab2e-4024-8e05-7646bd4c05db}" />

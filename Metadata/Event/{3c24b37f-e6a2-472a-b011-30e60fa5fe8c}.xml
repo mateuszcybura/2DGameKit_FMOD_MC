@@ -88,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8db27024-ae3d-454a-8144-9fdf22134d2b}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{2e0aa391-dee3-45cf-af8d-982c41d7fd2f}</destination>
 		</relationship>
@@ -266,7 +269,7 @@
 			<value>3.20000005</value>
 		</property>
 		<property name="minimumExtent">
-			<value>92</value>
+			<value>180</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d7607ff2-f619-44c7-a9fb-4cd7bbc28e0b}">

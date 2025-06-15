@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{cbc98254-e041-45dc-80e3-6d43cb1fa499}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7292a144-6726-433e-961a-0237a52e2ca0}</destination>
@@ -143,10 +143,16 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>4555.7417</value>
+			<value>2550.40649</value>
+		</property>
+		<property name="frequencyB">
+			<value>38.8125801</value>
 		</property>
 		<property name="gainA">
-			<value>-3.10344887</value>
+			<value>-3.80739594</value>
+		</property>
+		<property name="gainB">
+			<value>-0.166599274</value>
 		</property>
 	</object>
 	<object class="LimiterEffect" id="{204df522-4610-493e-9846-55c472539441}">

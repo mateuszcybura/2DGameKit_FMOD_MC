@@ -507,7 +507,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{be5dd7de-44af-4a44-abb1-2f862ddef94d}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>strlow_idk</value>
@@ -617,7 +617,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c1f9c0b6-78bf-4871-820d-b80ba8e50c1b}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-1.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -700,7 +700,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e9489f37-4615-4b33-ba7a-968cf7f9427d}">
 		<property name="volume">
-			<value>2.5</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -785,7 +785,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{29fba493-3ef5-429d-b1be-a9c96d190f54}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Audio 8</value>
@@ -918,7 +918,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b491627-951d-42e9-aabb-b8005d9819f6}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
 			<value>stingers ending</value>
